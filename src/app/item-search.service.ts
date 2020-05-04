@@ -1,4 +1,7 @@
 import {Injectable} from '@angular/core';
+import {Observable, of} from 'rxjs';
+import {Item} from './item';
+import {NotificationService} from './notification.service';
 
 @Injectable({
     providedIn: 'root'
@@ -16,10 +19,10 @@ export class ItemSearchService {
         {floorName: 'Academic', shelves: [{name: 'Mathematics', items: []}]},
         {floorName: 'Novel', shelves: [{name: 'Fiction', items: this.items}]}];
 
-    constructor() {
+    constructor(private notificationService: NotificationService) {
     }
 
-    getItems() {
-        return this.items;
+    getItems(): Observable<Item[]> {
+        return of(this.items);
     }
 }
