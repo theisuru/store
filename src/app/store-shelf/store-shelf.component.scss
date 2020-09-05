@@ -1,3 +1,39 @@
+.shelf-header {
+  margin-top: 10px;
+  margin-left: -15px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #3a3a3a;
+}
+
+.shelf-header-secondary {
+  margin-top: 10px;
+  margin-left: -15px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #3a3a3a;
+}
+
 .btn-shelf-carousel {
-  height: 100%;
+  //height: 270px;
+  height: 15vw;
+  width: 3%;
+  margin-top: 8px;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.25);
+  color: #222f3e;
+  border: none;
+}
+
+.btn-shelf-carousel:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #ffffff;
+}
+
+.btn-shelf-carousel-left {
+  margin-right: -4%;
+}
+
+.btn-shelf-carousel-right {
+  margin-left: -4%;
 }

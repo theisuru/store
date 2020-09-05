@@ -5,14 +5,15 @@ import {DashboardComponent} from './dashboard/dashboard.component';
 import {StoreBuildingComponent} from './store-building/store-building.component';
 import {StoreItemLoadedComponent} from './store-item-loaded/store-item-loaded.component';
 import {StoreShelfLoadedComponent} from './store-shelf-loaded/store-shelf-loaded.component';
+import {StoreFloorComponent} from './store-floor/store-floor.component';
 
 
 const routes: Routes = [
-  { path: 'store', component: StoreBuildingComponent },
   { path: '', component: DashboardComponent },
+  { path: 'store', component: StoreBuildingComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'main', component: MainWindowComponent },
-  { path: 'floor', component: MainWindowComponent },
+  { path: 'floor', component: StoreFloorComponent },
   { path: 'shelf', component: StoreShelfLoadedComponent },
   { path: 'item', component: StoreItemLoadedComponent }
 ];

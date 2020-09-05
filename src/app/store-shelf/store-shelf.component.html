@@ -1,25 +1,10 @@
 <div class="container-fluid">
+    <div class="shelf-header">{{shelfName}}</div>
     <div class="row">
-        <div class="col-lg-1">
-            <button class="btn-secondary btn-shelf-carousel">Prev</button>
+        <button class="btn-shelf-carousel btn-shelf-carousel-left"><</button>
+        <div *ngFor="let item of items" class="col-lg-2">
+            <app-store-item [item]="item"></app-store-item>
         </div>
-        <div class="col-lg-2">
-            <app-store-item></app-store-item>
-        </div>
-        <div class="col-lg-2">
-            <app-store-item></app-store-item>
-        </div>
-        <div class="col-lg-2">
-            <app-store-item></app-store-item>
-        </div>
-        <div class="col-lg-2">
-            <app-store-item></app-store-item>
-        </div>
-        <div class="col-lg-2">
-            <app-store-item></app-store-item>
-        </div>
-        <div class="col-lg-1">
-            <button class="btn-secondary btn-shelf-carousel">Next</button>
-        </div>
+        <button class="btn-shelf-carousel btn-shelf-carousel-right">></button>
     </div>
 </div>

@@ -1,34 +1,9 @@
 <div class="catalog">
   <h5>Filter Results</h5>
-  <h6>Ratings</h6>
-  <nav class="nav flex-column ">
-    <a class="nav-link active" href="#">Active</a>
-    <a class="nav-link" href="#">Link</a>
-    <a class="nav-link" href="#">Link</a>
-    <a class="nav-link disabled" href="#">Disabled</a>
-  </nav>
-  <hr>
-  <h5>Categories</h5>
-  <nav class="nav flex-column">
-    <a class="nav-link active" href="#">Active</a>
-    <a class="nav-link" href="#">Link</a>
-    <a class="nav-link" href="#">Link</a>
-    <a class="nav-link disabled" href="#">Disabled</a>
-  </nav>
-  <hr>
-  <h5>Author</h5>
-  <nav class="nav flex-column">
-    <a class="nav-link active" href="#">Active</a>
-    <a class="nav-link" href="#">Link</a>
-    <a class="nav-link" href="#">Link</a>
-    <a class="nav-link disabled" href="#">Disabled</a>
-  </nav>
-  <hr>
-  <h5>Price</h5>
-  <nav class="nav flex-column">
-    <a class="nav-link active" href="#">Active</a>
-    <a class="nav-link" href="#">Link</a>
-    <a class="nav-link" href="#">Link</a>
-    <a class="nav-link disabled" href="#">Disabled</a>
-  </nav>
+  <div *ngFor="let facet of facets">
+    <h6>{{facet.name}}</h6>
+    <ul>
+      <li *ngFor="let value of facet.records">{{value.name}}</li>
+    </ul>
+  </div>
 </div>

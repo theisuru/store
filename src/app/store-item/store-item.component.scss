@@ -7,3 +7,21 @@
   border: 1px solid;
   text-decoration: none;
 }
+
+.store-item-img {
+  height: 50%;
+  width: auto;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 7vw;
+  object-fit: cover;
+}
+
+.card-title {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

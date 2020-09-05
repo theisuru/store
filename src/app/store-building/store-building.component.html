@@ -1,10 +1,11 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-2">
-            <app-store-catalog></app-store-catalog>
+            <app-store-catalog [facets]="facets"></app-store-catalog>
         </div>
         <div class="col-lg-10">
-            <app-store-shelf-loaded></app-store-shelf-loaded>
+            <app-store-shelf-loaded *ngIf="getDisplayModel() == 'shelf'" [items]="items"></app-store-shelf-loaded>
+            <app-store-floor *ngIf="getDisplayModel() == 'floor'"></app-store-floor>
         </div>
     </div>
 </div>

@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {Item} from '../item';
 
 @Component({
   selector: 'app-store-shelf',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./store-shelf.component.scss']
 })
 export class StoreShelfComponent implements OnInit {
+  @Input() shelfName: string;
+  @Input() items: Item[];
 
   constructor() { }
 

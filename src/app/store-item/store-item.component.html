@@ -1,15 +1,15 @@
 <a href="/item" class="card store-item">
 <!--    <div class="card store-item">-->
         <!--    <div class="card-header">Featured</div>-->
-        <img class="card-img-top" src="/assets/img/harry.jpeg" alt="Card image cap">
+        <img class="card-img-top" src="{{item.image}}" alt="{{item.description}}">
         <div class="card-body">
-            <h5 class="card-title">Harry Potter</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Rs. 100.50</h6>
+            <h5 class="card-title">{{item.name}}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">{{item.price}}</h6>
             <!--        <div class="card-text">Harry Potter first book</div>-->
             <!--        <a href="#" class="btn btn-primary">Add to </a>-->
         </div>
-        <div class="card-footer text-muted">
-            2 days ago
+        <div class="card-footer text-muted text-center">
+            {{item.rating.stars}}
         </div>
 <!--    </div>-->
 </a>
