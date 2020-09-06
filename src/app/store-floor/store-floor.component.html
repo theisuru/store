@@ -1,11 +1,13 @@
-<div class="row">
-    <div class="col-lg-2">
-        <app-store-catalog [facets]="facets"></app-store-catalog>
-    </div>
-    <div class="col-lg-10">
-        <div class="floor-header">{{floorName}}</div>
-        <app-store-shelf [items]="featuredItems" [shelfName]="'Featured'"></app-store-shelf>
-        <app-store-shelf [items]="bestSellerItems" [shelfName]="'Best Seller'"></app-store-shelf>
-        <app-store-shelf [items]="recommendedItems" [shelfName]="'Recommended'"></app-store-shelf>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-2">
+            <app-store-catalog [facets]="facets"></app-store-catalog>
+        </div>
+        <div class="col-lg-10">
+            <div class="floor-header">{{floorName}}</div>
+            <app-store-shelf [items]="featuredItems" [shelfName]="'Featured'"></app-store-shelf>
+            <app-store-shelf [items]="bestSellerItems" [shelfName]="'Best Seller'"></app-store-shelf>
+            <app-store-shelf [items]="recommendedItems" [shelfName]="'Recommended'"></app-store-shelf>
+        </div>
     </div>
 </div>

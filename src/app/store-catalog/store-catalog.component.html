@@ -1,9 +1,10 @@
 <div class="catalog">
-  <h5>Filter Results</h5>
-  <div *ngFor="let facet of facets">
-    <h6>{{facet.name}}</h6>
-    <ul>
-      <li *ngFor="let value of facet.records">{{value.name}}</li>
-    </ul>
-  </div>
+    <h5 class="catalog-title">Filter Results</h5>
+    <div class="catalog-facet" *ngFor="let facet of facets">
+        <hr>
+        <h6 class="catalog-facet-type">{{facet.name}}</h6>
+        <div class="catalog-facet-value" *ngFor="let value of facet.records">
+            <label><input type="checkbox" class="m-1" value=""> {{value.name}}</label>
+        </div>
+    </div>
 </div>

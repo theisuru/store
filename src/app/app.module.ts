@@ -16,7 +16,7 @@ import {StoreBuildingComponent} from './store-building/store-building.component'
 import {StoreCatalogComponent} from './store-catalog/store-catalog.component';
 import {StoreItemLoadedComponent} from './store-item-loaded/store-item-loaded.component';
 import {StoreShelfLoadedComponent} from './store-shelf-loaded/store-shelf-loaded.component';
-import { NotificationsComponent } from './notifications/notifications.component';
+import {NotificationsComponent} from './notifications/notifications.component';
 
 @NgModule({
     declarations: [

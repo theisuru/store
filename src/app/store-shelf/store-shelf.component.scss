@@ -1,28 +1,24 @@
 .shelf-header {
   margin-top: 10px;
   margin-left: -15px;
-  font-size: 30px;
-  font-weight: bold;
-  color: #3a3a3a;
-}
-
-.shelf-header-secondary {
-  margin-top: 10px;
-  margin-left: -15px;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   color: #3a3a3a;
 }
 
 .btn-shelf-carousel {
   //height: 270px;
-  height: 15vw;
+  //height: 15vw;
+  vertical-align: middle;
   width: 3%;
   margin-top: 8px;
+  margin-bottom: 8px;
   z-index: 1;
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.05);
   color: #222f3e;
   border: none;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .btn-shelf-carousel:hover {
@@ -31,9 +27,10 @@
 }
 
 .btn-shelf-carousel-left {
-  margin-right: -4%;
+  margin-right: -3%;
+  //padding-right: 20px;
 }
 
 .btn-shelf-carousel-right {
-  margin-left: -4%;
+  margin-left: -3%;
 }
