@@ -9,8 +9,7 @@ import {StoreFloorComponent} from './store-floor/store-floor.component';
 
 
 const routes: Routes = [
-    {path: '', component: DashboardComponent},
-    {path: 'store', component: StoreBuildingComponent},
+    {path: '', component: StoreBuildingComponent},
     {path: 'dashboard', component: DashboardComponent},
     {path: 'main', component: MainWindowComponent},
     {path: 'floor', component: StoreFloorComponent},

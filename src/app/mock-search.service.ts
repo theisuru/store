@@ -6,51 +6,51 @@ import { Injectable } from '@angular/core';
 export class MockSearchService {
   static items = [
         {
-            name: 'Sherlock Holmes', price: 'Rs. 100.50', description: 'Detective book', image: '/assets/img/holmes.jpg',
+            name: 'Sherlock Holmes', price: 'Rs. 100.50', description: 'Detective book', image: 'assets/img/holmes.jpg',
             location: '', rating: {stars: 4.5, count: 200}
         },
         {
-            name: 'Harry Potter', price: 'Rs. 200.75', description: 'Children book', image: '/assets/img/harry.jpeg',
+            name: 'Harry Potter', price: 'Rs. 200.75', description: 'Children book', image: 'assets/img/harry.jpeg',
             location: '', rating: {stars: 4.5, count: 200}
         },
         {
-            name: 'Games of thrones', price: 'Rs. 500.00', description: 'Fantasy book', image: '/assets/img/got.jpg',
+            name: 'Games of thrones', price: 'Rs. 500.00', description: 'Fantasy book', image: 'assets/img/got.jpg',
             location: '', rating: {stars: 4.5, count: 200}
         },
         {
-            name: 'Sherlock Holmes', price: 'Rs. 100.50', description: 'Detective book', image: '/assets/img/harry.jpeg',
+            name: 'Sherlock Holmes', price: 'Rs. 100.50', description: 'Detective book', image: 'assets/img/harry.jpeg',
             location: '', rating: {stars: 4.5, count: 200}
         },
         {
-            name: 'Sherlock Holmes', price: 'Rs. 100.50', description: 'Detective book', image: '/assets/img/harry.jpeg',
+            name: 'Sherlock Holmes', price: 'Rs. 100.50', description: 'Detective book', image: 'assets/img/harry.jpeg',
             location: '', rating: {stars: 4.5, count: 200}
         },
         {
-            name: 'Games of thrones', price: 'Rs. 500.00', description: 'Fantasy book', image: '/assets/img/got.jpg',
+            name: 'Games of thrones', price: 'Rs. 500.00', description: 'Fantasy book', image: 'assets/img/got.jpg',
             location: '', rating: {stars: 4.5, count: 200}
         },
         {
-            name: 'Sherlock Holmes', price: 'Rs. 100.50', description: 'Detective book', image: '/assets/img/holmes.jpg',
+            name: 'Sherlock Holmes', price: 'Rs. 100.50', description: 'Detective book', image: 'assets/img/holmes.jpg',
             location: '', rating: {stars: 4.5, count: 200}
         },
         {
-            name: 'Games of thrones', price: 'Rs. 500.00', description: 'Fantasy book', image: '/assets/img/got.jpg',
+            name: 'Games of thrones', price: 'Rs. 500.00', description: 'Fantasy book', image: 'assets/img/got.jpg',
             location: '', rating: {stars: 4.5, count: 200}
         },
         {
-            name: 'Sherlock Holmes', price: 'Rs. 100.50', description: 'Detective book', image: '/assets/img/harry.jpeg',
+            name: 'Sherlock Holmes', price: 'Rs. 100.50', description: 'Detective book', image: 'assets/img/harry.jpeg',
             location: '', rating: {stars: 4.5, count: 200}
         },
         {
-            name: 'Sherlock Holmes', price: 'Rs. 100.50', description: 'Detective book', image: '/assets/img/holmes.jpg',
+            name: 'Sherlock Holmes', price: 'Rs. 100.50', description: 'Detective book', image: 'assets/img/holmes.jpg',
             location: '', rating: {stars: 4.5, count: 200}
         },
         {
-            name: 'Games of thrones', price: 'Rs. 500.00', description: 'Fantasy book', image: '/assets/img/got.jpg',
+            name: 'Games of thrones', price: 'Rs. 500.00', description: 'Fantasy book', image: 'assets/img/got.jpg',
             location: '', rating: {stars: 4.5, count: 200}
         },
         {
-            name: 'Sherlock Holmes', price: 'Rs. 100.50', description: 'Detective book', image: '/assets/img/holmes.jpg',
+            name: 'Sherlock Holmes', price: 'Rs. 100.50', description: 'Detective book', image: 'assets/img/holmes.jpg',
             location: '', rating: {stars: 4.5, count: 200}
         }];
 
