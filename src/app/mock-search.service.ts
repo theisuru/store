@@ -60,20 +60,22 @@ export class MockSearchService {
 
     static facets = [
         {
+            name: 'Genre',
+            records: [{name: 'Fiction', count: 200}, {name: 'Education', count: 100},
+                {name: 'Young adults', count: 50}, {name: 'Science Fiction', count: 50}, {name: 'Romance', count: 50}]
+        },
+        {
             name: 'Rating',
-            records: [{name: '5 Stars', count: 200}, {name: '4 Stars', count: 100}, {name: '3 Stars', count: 50}]
+            records: [{name: '4 Stars & up', count: 200}, {name: '3 Stars & up', count: 100},
+                {name: '2 Stars & up', count: 50}, {name: '1 Star & up', count: 50}]
         },
         {
             name: 'Language',
             records: [{name: 'English', count: 200}, {name: 'Sinhala', count: 100}, {name: 'Tamil', count: 50}]
         },
         {
-            name: 'Genre',
-            records: [{name: 'Fiction', count: 200}, {name: 'Education', count: 100}, {name: 'Young adults', count: 50}]
-        },
-        {
             name: 'Price',
-            records: [{name: 'Rs. 500', count: 200}, {name: 'Rs. 300', count: 100}, {name: 'Rs. 100', count: 50}]
+            records: [{name: 'Rs. 5000 & up', count: 200}, {name: 'Rs. 1000 - 5000', count: 100}, {name: 'Rs. 1000 & below', count: 50}]
         }];
 
   constructor() { }

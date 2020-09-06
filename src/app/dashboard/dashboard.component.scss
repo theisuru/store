@@ -1,0 +1,22 @@
+.dashboard-header {
+  font-size: 35px;
+  font-weight: bold;
+  height: 370px;
+  margin-bottom: -200px;
+  padding-left: 12px;
+  padding-top: 20px;
+  margin-left: -12px;
+  margin-right: -12px;
+  //background-color: #b9b9b9;
+  background-image: url("^assets/img/fiction_floor.jpg"), linear-gradient(black, white);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: lighten;
+}
+
+.dashboard-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #b9b9b9;
+  float: left;
+}

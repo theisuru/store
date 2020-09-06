@@ -17,6 +17,13 @@ import {StoreCatalogComponent} from './store-catalog/store-catalog.component';
 import {StoreItemLoadedComponent} from './store-item-loaded/store-item-loaded.component';
 import {StoreShelfLoadedComponent} from './store-shelf-loaded/store-shelf-loaded.component';
 import {NotificationsComponent} from './notifications/notifications.component';
+import {WishlistComponent} from './wishlist/wishlist.component';
+import {BasketComponent} from './basket/basket.component';
+import {AccountComponent} from './account/account.component';
+import {OrdersComponent} from './orders/orders.component';
+import {SigninComponent} from './signin/signin.component';
+import {SignupComponent} from './signup/signup.component';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
     declarations: [
@@ -33,12 +40,19 @@ import {NotificationsComponent} from './notifications/notifications.component';
         StoreCatalogComponent,
         StoreItemLoadedComponent,
         StoreShelfLoadedComponent,
-        NotificationsComponent
+        NotificationsComponent,
+        WishlistComponent,
+        BasketComponent,
+        AccountComponent,
+        OrdersComponent,
+        SigninComponent,
+        SignupComponent
     ],
     imports: [
         BrowserModule,
         HttpClientModule,
-        AppRoutingModule
+        AppRoutingModule,
+        FormsModule
     ],
     providers: [],
     bootstrap: [AppComponent]

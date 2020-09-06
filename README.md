@@ -29,3 +29,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## build for github
 ng build --prod --base-href="https://theisuru.github.io/store/" --output-path docs
 cp docs/index.html docs/404.html
+git add *
+git commit -m "for github pages"
+git push origin
